@@ -1,38 +1,319 @@
 {
-    "code": 0,
-    "message": "OK",
-    "data": {
-        "content": "这是一款性能出色、设计精致的手机商品详情内容，涵盖外观、功能等多方面介绍",
-        "banners": [
-            "https://example.com/banner1.jpg",
-            "https://example.com/banner2.jpg",
-            "https://example.com/banner3.jpg"
-        ],
-        "tabs": [
-            {
-                "name": "商品详情",
-                "pictures": [
-                    "https://example.com/product_detail_1.jpg",
-                    "https://example.com/product_detail_2.jpg",
-                    "https://example.com/product_detail_3.jpg"
-                ],
-                "description": "详细介绍商品的外观设计、使用体验、特色功能等内容，让您全方位了解商品"
-            },
-            {
-                "name": "规格参数",
-                "pictures": [
-                    "https://example.com/spec_param_1.jpg",
-                    "https://example.com/spec_param_2.jpg"
-                ],
-                "description": "罗列商品的详细参数，如尺寸、重量、性能指标等，助您精准了解商品规格"
-            }
-        ],
-        "specifications": "搭载强劲处理器，运行内存 3GB，机身存储 64GB，采用金色外观设计，配备超感光相机，拥有轻薄金属机身与 5.15 英寸高亮护眼屏",
-        "inventory": "商品包含手机主机、充电头、数据线、说明书、保修卡",
-        "id": 1,
-        "name": "小米5c 3GB+64GB 金色",
-        "description": "搭载澎湃 S1 八核高性能处理器 / “暗夜之眼”超感光相机 / 135g 轻薄金属机身 / 5.15 高亮护眼屏",
-        "price": 12.00,
-        "thumb": "https://example.com/thumb_1.jpg"
+  "status": 200,
+  "message": "请求成功",
+  "data": [
+    {
+      "id": 1,
+      "content": "专业守护家居安全，支持远程实时查看，智能识别异常动态并推送提醒，夜间红外模式确保全天候监控。",
+      "banners": [
+        "https://example.com/camera_banner1.jpg",
+        "https://example.com/camera_banner2.jpg",
+        "https://example.com/camera_banner3.jpg"
+      ],
+      "tabs": [
+        {
+          "name": "商品详情",
+          "pictures": [
+            "https://example.com/camera_detail_1.jpg",
+            "https://example.com/camera_detail_2.jpg",
+            "https://example.com/camera_detail_3.jpg"
+          ],
+          "description": "1080P高清画质，130°广角覆盖，AI人形侦测减少误报，支持双向语音通话，安装方式灵活。"
+        },
+        {
+          "name": "规格参数",
+          "pictures": [
+            "https://example.com/camera_spec_1.jpg",
+            "https://example.com/camera_spec_2.jpg"
+          ],
+          "description": "尺寸：85×85×120mm | 分辨率：1920×1080 | 续航：满电可用30天 | 防水等级：IP66"
+        }
+      ],
+      "specifications": "1080P全高清录像，130°广角镜头，AI智能侦测，红外夜视，双向语音，支持云存储",
+      "inventory": "包装内含：摄像机主机×1、电源适配器×1、安装支架×1、螺丝包×1、说明书×1、保修卡×1",
+      "name": "米家智能摄像机",
+      "description": "高清夜视 / AI侦测 / 双向语音 / 远程查看",
+      "price": 199.00,
+      "thumb": "https://i8.mifile.cn/v1/a1/375bd3a4-aab9-f77b-f6a1-5dbf01087495.webp?width=100&height=100"
+    },
+    {
+      "id": 2,
+      "content": "高效净化PM2.5、甲醛、花粉等污染物，适用面积30-50㎡，智能联动米家APP控制，自动调节风速。",
+      "banners": [
+        "https://example.com/airpurifier_banner1.jpg",
+        "https://example.com/airpurifier_banner2.jpg",
+        "https://example.com/airpurifier_banner3.jpg"
+      ],
+      "tabs": [
+        {
+          "name": "商品详情",
+          "pictures": [
+            "https://example.com/airpurifier_detail_1.jpg",
+            "https://example.com/airpurifier_detail_2.jpg"
+          ],
+          "description": "HEPA复合滤网，CADR值400m³/h，睡眠模式噪音低至32dB，支持滤网寿命提醒和自动换气。"
+        },
+        {
+          "name": "规格参数",
+          "pictures": [
+            "https://example.com/airpurifier_spec_1.jpg"
+          ],
+          "description": "尺寸：350×350×500mm | 适用面积：30-50㎡ | CADR值：400m³/h | 噪音：32-60dB"
+        }
+      ],
+      "specifications": "HEPA高效滤网，智能控制，自动调节风速，定时开关机，童锁保护",
+      "inventory": "包装内含：净化器主机×1、复合滤网×1、电源线×1、说明书×1、保修卡×1",
+      "name": "小米空气净化器4 Pro",
+      "description": "高效净化 / 智能控制 / 低噪运行 / 适用大面积",
+      "price": 1499.00,
+      "thumb": "https://i8.mifile.cn/v1/a1/656a5863-6af1-6302-4e36-a33bd49e45cb.webp?width=100&height=100"
+    },
+    {
+      "id": 3,
+      "content": "搭载天玑1080处理器，6.67英寸OLED直屏支持120Hz刷新率，5000mAh电池+67W快充，影像表现出色。",
+      "banners": [
+        "https://example.com/phone_banner1.jpg",
+        "https://example.com/phone_banner2.jpg",
+        "https://example.com/phone_banner3.jpg"
+      ],
+      "tabs": [
+        {
+          "name": "商品详情",
+          "pictures": [
+            "https://example.com/phone_detail_1.jpg",
+            "https://example.com/phone_detail_2.jpg"
+          ],
+          "description": "5000万像素主摄+800万像素超广角+200万像素微距，轻薄机身仅181g，支持NFC和红外遥控。"
+        },
+        {
+          "name": "规格参数",
+          "pictures": [
+            "https://example.com/phone_spec_1.jpg"
+          ],
+          "description": "处理器：天玑1080 | 内存：8GB+128GB | 屏幕：6.67英寸OLED 120Hz | 电池：5000mAh 67W快充"
+        }
+      ],
+      "specifications": "天玑1080处理器，120Hz OLED直屏，50MP主摄，5000mAh大电池，67W快充",
+      "inventory": "包装内含：手机×1、充电头×1、数据线×1、保护壳×1、说明书×1、保修卡×1",
+      "name": "Redmi Note 12 Pro",
+      "description": "高性能芯 / 高刷屏 / 大电池 / 超清影像",
+      "price": 1599.00,
+      "thumb": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/cbcdb6c054d45c1afc955c87329e96f1.jpg?width=100&height=100"
+    },
+    {
+      "id": 4,
+      "content": "小米手环8升级大屏设计，支持150+运动模式，全天候健康监测（心率、血氧、睡眠等），续航可达14天。",
+      "banners": [
+        "https://example.com/band_banner1.jpg",
+        "https://example.com/band_banner2.jpg"
+      ],
+      "tabs": [
+        {
+          "name": "商品详情",
+          "pictures": [
+            "https://example.com/band_detail_1.jpg",
+            "https://example.com/band_detail_2.jpg"
+          ],
+          "description": "1.62英寸AMOLED屏，支持自定义表盘，50米防水，智能通知提醒，磁吸充电更便捷。"
+        },
+        {
+          "name": "规格参数",
+          "pictures": [
+            "https://example.com/band_spec_1.jpg"
+          ],
+          "description": "尺寸：45.5×28.8×10.9mm | 屏幕：1.62英寸AMOLED | 续航：7-14天 | 防水：50米"
+        }
+      ],
+      "specifications": "1.62英寸大屏，150+运动模式，24h健康监测，50米防水，磁吸充电",
+      "inventory": "包装内含：手环主体×1、充电线×1、说明书×1、保修卡×1",
+      "name": "小米手环8",
+      "description": "大屏显示 / 多运动模式 / 健康监测 / 长续航",
+      "price": 299.00,
+      "thumb": "https://i8.mifile.cn/v1/a1/47f2a84a-5a5a-585a-9a1a-5c7c7d1e1f21.webp?width=100&height=100"
+    },
+    {
+      "id": 5,
+      "content": "米家旗舰级扫地机器人，支持扫拖一体，自动集尘+自动洗拖布+自动热风烘干，彻底解放双手。",
+      "banners": [
+        "https://example.com/robot_banner1.jpg",
+        "https://example.com/robot_banner2.jpg"
+      ],
+      "tabs": [
+        {
+          "name": "商品详情",
+          "pictures": [
+            "https://example.com/robot_detail_1.jpg",
+            "https://example.com/robot_detail_2.jpg"
+          ],
+          "description": "5000Pa超大吸力，AI避障技术，精准识别家具和线缆，APP智能规划路线，支持分区清扫。"
+        },
+        {
+          "name": "规格参数",
+          "pictures": [
+            "https://example.com/robot_spec_1.jpg"
+          ],
+          "description": "吸力：5000Pa | 续航：180分钟 | 集尘容量：3L | 水箱容量：2.5L | 适用面积：250㎡"
+        }
+      ],
+      "specifications": "5000Pa大吸力，AI智能避障，自动集尘洗拖布，热风烘干，APP远程控制",
+      "inventory": "包装内含：主机×1、基站×1、充电桩×1、清洁工具×1、说明书×1、保修卡×1",
+      "name": "米家扫地机器人Ultra",
+      "description": "全自动清洁 / 大吸力 / AI避障 / 长续航",
+      "price": 4599.00,
+      "thumb": "https://i8.mifile.cn/v1/a1/7b6d2c5f-7d6b-3c2d-8e4f-9a3b2d1c3e4f.webp?width=100&height=100"
+    },
+    {
+      "id": 6,
+      "content": "小米笔记本Pro 15搭载英特尔酷睿i7处理器，3.2K 120Hz OLED屏幕，轻薄金属机身，性能与便携兼顾。",
+      "banners": [
+        "https://example.com/laptop_banner1.jpg",
+        "https://example.com/laptop_banner2.jpg"
+      ],
+      "tabs": [
+        {
+          "name": "商品详情",
+          "pictures": [
+            "https://example.com/laptop_detail_1.jpg",
+            "https://example.com/laptop_detail_2.jpg"
+          ],
+          "description": "16GB内存+512GB SSD，NVIDIA MX550独显，哈曼卡顿调校音响，70Wh大电池续航可达10小时。"
+        },
+        {
+          "name": "规格参数",
+          "pictures": [
+            "https://example.com/laptop_spec_1.jpg"
+          ],
+          "description": "处理器：i7-1260P | 内存：16GB | 硬盘：512GB SSD | 屏幕：15.6英寸3.2K 120Hz OLED"
+        }
+      ],
+      "specifications": "i7处理器，3.2K OLED高刷屏，MX550独显，金属机身，哈曼卡顿音响",
+      "inventory": "包装内含：笔记本×1、电源适配器×1、说明书×1、保修卡×1",
+      "name": "小米笔记本Pro 15",
+      "description": "高性能处理器 / 高清高刷屏 / 独显配置 / 长续航",
+      "price": 6499.00,
+      "thumb": "https://i8.mifile.cn/v1/a1/8c7e3d2a-8b7c-4d3e-7f2a-6b5c4d3e2f1a.webp?width=100&height=100"
+    },
+    {
+      "id": 7,
+      "content": "伸手自动感应出泡，无需接触更卫生，泡沫细腻易冲洗，适合家庭、办公室等场景使用。",
+      "banners": [
+        "https://example.com/soap_banner1.jpg",
+        "https://example.com/soap_banner2.jpg"
+      ],
+      "tabs": [
+        {
+          "name": "商品详情",
+          "pictures": [
+            "https://example.com/soap_detail_1.jpg"
+          ],
+          "description": "0.25秒快速感应，出泡量适中，一节AA电池可使用约3个月，洗手液可替换设计。"
+        },
+        {
+          "name": "规格参数",
+          "pictures": [
+            "https://example.com/soap_spec_1.jpg"
+          ],
+          "description": "尺寸：85×85×165mm | 感应距离：0-8cm | 续航：约3个月 | 容量：200ml"
+        }
+      ],
+      "specifications": "自动感应出泡，免接触设计，低功耗，可替换洗手液，IPX4防水",
+      "inventory": "包装内含：洗手机主机×1、洗手液×1、AA电池×2、说明书×1、保修卡×1",
+      "name": "米家自动洗手机",
+      "description": "自动感应 / 免接触 / 易更换 / 低功耗",
+      "price": 99.00,
+      "thumb": "https://i8.mifile.cn/v1/a1/9d8f4e5b-9c8d-5e4f-8a3b-7c6d5e4f3a2b.webp?width=100&height=100"
+    },
+    {
+      "id": 8,
+      "content": "3L容量适合2-4人家庭，无油空气炸技术减少80%油脂摄入，12种预设菜单一键烹饪，操作简单。",
+      "banners": [
+        "https://example.com/fryer_banner1.jpg",
+        "https://example.com/fryer_banner2.jpg"
+      ],
+      "tabs": [
+        {
+          "name": "商品详情",
+          "pictures": [
+            "https://example.com/fryer_detail_1.jpg",
+            "https://example.com/fryer_detail_2.jpg"
+          ],
+          "description": "360°热风循环，加热均匀不夹生，可拆卸炸篮易清洗，1700W大功率加热更快。"
+        },
+        {
+          "name": "规格参数",
+          "pictures": [
+            "https://example.com/fryer_spec_1.jpg"
+          ],
+          "description": "容量：3L | 功率：1700W | 温度范围：80-200℃ | 定时：0-30分钟"
+        }
+      ],
+      "specifications": "3L容量，12种预设菜单，360°热风循环，可拆卸炸篮，1700W大功率",
+      "inventory": "包装内含：空气炸锅×1、炸篮×1、食谱×1、说明书×1、保修卡×1",
+      "name": "小米空气炸锅3L",
+      "description": "无油健康 / 3L容量 / 多菜单 / 易清洗",
+      "price": 299.00,
+      "thumb": "https://i8.mifile.cn/v1/a1/ad9e5f6c-ad9e-6f5e-9b4c-8d7e6f5e4b3c.webp?width=100&height=100"
+    },
+    {
+      "id": 9,
+      "content": "米家台灯1S采用全光谱LED光源，无蓝光危害，无可视频闪，色温3000K-5700K可调，适合阅读学习。",
+      "banners": [
+        "https://example.com/lamp_banner1.jpg"
+      ],
+      "tabs": [
+        {
+          "name": "商品详情",
+          "pictures": [
+            "https://example.com/lamp_detail_1.jpg",
+            "https://example.com/lamp_detail_2.jpg"
+          ],
+          "description": "支持米家APP智能控制，可联动其他设备，折叠设计节省空间，400流明亮度满足不同场景。"
+        },
+        {
+          "name": "规格参数",
+          "pictures": [
+            "https://example.com/lamp_spec_1.jpg"
+          ],
+          "description": "功率：8W | 亮度：400lm | 色温：3000K-5700K | 显色指数：Ra90"
+        }
+      ],
+      "specifications": "全光谱LED，无蓝光危害，APP智能控制，3000K-5700K色温可调，折叠设计",
+      "inventory": "包装内含：台灯×1、电源线×1、说明书×1、保修卡×1",
+      "name": "米家台灯1S",
+      "description": "全光谱光源 / 无蓝光 / 智能控制 / 可折叠",
+      "price": 149.00,
+      "thumb": "https://i8.mifile.cn/v1/a1/bd0f6e7d-bc0f-7e6f-0c5d-9e8f7e6f5c4d.webp?width=100&height=100"
+    },
+    {
+      "id": 10,
+      "content": "Redmi Buds 4 Pro采用入耳式设计，主动降噪深度可达43dB，支持空间音频，音质由哈曼卡顿调校。",
+      "banners": [
+        "https://example.com/earbuds_banner1.jpg",
+        "https://example.com/earbuds_banner2.jpg"
+      ],
+      "tabs": [
+        {
+          "name": "商品详情",
+          "pictures": [
+            "https://example.com/earbuds_detail_1.jpg",
+            "https://example.com/earbuds_detail_2.jpg"
+          ],
+          "description": "单耳重4.5g佩戴舒适，开启降噪续航6小时（总续航30小时），支持无线充电和快充。"
+        },
+        {
+          "name": "规格参数",
+          "pictures": [
+            "https://example.com/earbuds_spec_1.jpg"
+          ],
+          "description": "降噪深度：43dB | 续航：6h（单耳）/30h（总） | 防水：IP54 | 连接：蓝牙5.3"
+        }
+      ],
+      "specifications": "43dB深度降噪，空间音频，哈曼卡顿调音，IP54防水，无线充电",
+      "inventory": "包装内含：耳机×1对、充电盒×1、耳塞×3对、说明书×1、保修卡×1",
+      "name": "Redmi Buds 4 Pro",
+      "description": "深度降噪 / 空间音频 / 长续航 / 防水",
+      "price": 499.00,
+      "thumb": "https://i8.mifile.cn/v1/a1/cd1f7e8e-cd1f-8e7f-1d6e-0f9e8e7f6d5e.webp?width=100&height=100"
     }
+  ]
 }
