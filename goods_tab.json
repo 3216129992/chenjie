@@ -1,0 +1,38 @@
+{
+    "code": 0,
+    "message": "OK",
+    "data": {
+        "content": "这是一款性能出色、设计精致的手机商品详情内容，涵盖外观、功能等多方面介绍",
+        "banners": [
+            "https://example.com/banner1.jpg",
+            "https://example.com/banner2.jpg",
+            "https://example.com/banner3.jpg"
+        ],
+        "tabs": [
+            {
+                "name": "商品详情",
+                "pictures": [
+                    "https://example.com/product_detail_1.jpg",
+                    "https://example.com/product_detail_2.jpg",
+                    "https://example.com/product_detail_3.jpg"
+                ],
+                "description": "详细介绍商品的外观设计、使用体验、特色功能等内容，让您全方位了解商品"
+            },
+            {
+                "name": "规格参数",
+                "pictures": [
+                    "https://example.com/spec_param_1.jpg",
+                    "https://example.com/spec_param_2.jpg"
+                ],
+                "description": "罗列商品的详细参数，如尺寸、重量、性能指标等，助您精准了解商品规格"
+            }
+        ],
+        "specifications": "搭载强劲处理器，运行内存 3GB，机身存储 64GB，采用金色外观设计，配备超感光相机，拥有轻薄金属机身与 5.15 英寸高亮护眼屏",
+        "inventory": "商品包含手机主机、充电头、数据线、说明书、保修卡",
+        "id": 1,
+        "name": "小米5c 3GB+64GB 金色",
+        "description": "搭载澎湃 S1 八核高性能处理器 / “暗夜之眼”超感光相机 / 135g 轻薄金属机身 / 5.15 高亮护眼屏",
+        "price": 12.00,
+        "thumb": "https://example.com/thumb_1.jpg"
+    }
+}
